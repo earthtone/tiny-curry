@@ -1,6 +1,6 @@
 {
   "name": "@earthtone/tiny-curry",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A curry function in JavaScript. That's it.",
   "main": "dist/index.umd.js",
   "module": "dist/index.esm.js",
