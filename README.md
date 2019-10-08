@@ -1,5 +1,7 @@
 # Tiny Curry
 
+![CI Status](https://travis-ci.org/earthtone/tiny-curry.svg?branch=master)
+
 A javascript curry function. That's it. Nothing else.
 
 ---
