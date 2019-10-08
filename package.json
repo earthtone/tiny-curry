@@ -5,6 +5,10 @@
   "main": "dist/index.umd.js",
   "module": "dist/index.esm.js",
   "unpkg": "dist/index.unpkg.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/earthtone/tiny-curry"
+  },
   "scripts": {
     "clean": "rimraf dist",
     "lint": "eslint . --fix",
