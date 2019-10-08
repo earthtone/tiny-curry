@@ -9,17 +9,12 @@ A javascript curry function. That's it. Nothing else.
 ```js
 import curry from '@earthtone/tiny-curry'
 
-const getName = prop => obj => obj[prop]
-const capitalize = string => string.charAt(0) + string.slice(1)
+const get = curry((prop, obj) => obj[prop])
+const getFirstName = get('first_name')
 
-const capitalizedFirstName = curry(
-  capitalize,
-  getName('first_name')
-)
-
-const result = capitalizedFirstName({
-  first_name: 'wally'
-  last_name: 'west'
+const result = getFirstName({
+  first_name: 'Wally'
+  last_name: 'West'
 })
 
 console.log(result) // -> 'Wally'
